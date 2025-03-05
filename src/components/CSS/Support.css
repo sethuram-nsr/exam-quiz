@@ -1,0 +1,38 @@
+.support-page{
+    margin-left: 350px;
+    margin-right: 250px;
+}
+.support-page {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #eef2f3, #8e9eab);
+    border-radius: 20px;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-card {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+}
+
+.support-btn {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.support-btn:hover {
+    opacity: 0.9;
+}

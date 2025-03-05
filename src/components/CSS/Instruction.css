@@ -1,0 +1,23 @@
+
+    
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb);
+    font-family: 'Poppins', sans-serif;
+}
+
+.instruction-exam {
+    margin: 50px ;
+    max-width: 600px;
+
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+}

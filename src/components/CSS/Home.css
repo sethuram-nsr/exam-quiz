@@ -1,0 +1,82 @@
+/* Global Reset */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* 🌈 Background with Gradient */
+.content-home {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb);
+
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 📌 Header Enhancements */
+.header-home {
+    background: linear-gradient(90deg, #001529, #003d80);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🎭 Card Styling for Depth */
+.ant-card {
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ddd;
+}
+
+.ant-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* 🖼️ Image Enhancements */
+.ant-card img {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ant-card img:hover {
+    transform: scale(1.05);
+}
+
+/* ✨ Button Styling */
+.ant-btn-primary {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    border: none;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ant-btn-primary:hover {
+    opacity: 0.85;
+}
+.btn{
+    width: 170px;
+}
+.log-btn{
+    width: 100px;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .content-home {
+        padding: 20px;
+    }
+
+    .ant-card {
+        width: 100%;
+    }
+}
+.heading-tit{
+    margin-top: 60px;
+}
